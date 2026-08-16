@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Ethernet Quick Switch</string>
+    <string name="app_description">Controllo rapido profili Ethernet</string>
+    <string name="accessibility_service_label">Automazione Configurazione Ethernet</string>
+    <string name="accessibility_service_description">Consente il cambio rapido automatico dei parametri IP Ethernet dalla schermata Home e dall\'app.</string>
+
+    <!-- Profiles -->
+    <string name="profile_ont_of">ONT OF</string>
+    <string name="profile_ont_sky">ONT SKY</string>
+    <string name="profile_dhcp">DHCP (Auto)</string>
+
+    <string name="status_connected">Connesso</string>
+    <string name="status_disconnected">Disconnesso</string>
+    <string name="apply">Applica</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="edit">Modifica</string>
+    <string name="add_profile">Nuovo Profilo</string>
+</resources>

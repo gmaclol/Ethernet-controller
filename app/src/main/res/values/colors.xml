@@ -1,0 +1,37 @@
+<resources>
+    <color name="primary">#0D6EFD</color>
+    <color name="primary_variant">#0A58CA</color>
+    <color name="on_primary">#FFFFFF</color>
+    
+    <color name="secondary">#00A86B</color>
+    <color name="secondary_variant">#008F5B</color>
+    <color name="on_secondary">#FFFFFF</color>
+
+    <color name="accent_orange">#FF7A00</color>
+    <color name="accent_sky">#0284C7</color>
+    <color name="accent_green">#10B981</color>
+    <color name="accent_purple">#8B5CF6</color>
+
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F1F5F9</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    
+    <color name="border">#E2E8F0</color>
+    <color name="divider">#CBD5E1</color>
+
+    <color name="success">#22C55E</color>
+    <color name="warning">#F59E0B</color>
+    <color name="error">#EF4444</color>
+
+    <!-- Widget Specific -->
+    <color name="widget_background">#1E293B</color>
+    <color name="widget_card_bg">#334155</color>
+    <color name="widget_text_primary">#F8FAFC</color>
+    <color name="widget_text_secondary">#94A3B8</color>
+    <color name="widget_btn_of">#EA580C</color>
+    <color name="widget_btn_sky">#0284C7</color>
+    <color name="widget_btn_dhcp">#16A34A</color>
+</resources>

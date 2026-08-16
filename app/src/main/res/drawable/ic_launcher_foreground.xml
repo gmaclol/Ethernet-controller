@@ -1,0 +1,77 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Glow Ring -->
+    <path
+        android:pathData="M54,30 A24,24 0 1,1 53.99,30 Z"
+        android:strokeWidth="1.2"
+        android:strokeAlpha="0.4"
+        android:strokeColor="#00E5FF" />
+
+    <!-- RJ45 Plug Shell Body with Rounded Contour -->
+    <path
+        android:pathData="M37,34 C37,31.8 38.8,30 41,30 L67,30 C69.2,30 71,31.8 71,34 L71,60 C71,62.2 69.2,64 67,64 L63,64 L63,70 C63,71.1 62.1,72 61,72 L47,72 C45.9,72 45,71.1 45,70 L45,64 L41,64 C38.8,64 37,62.2 37,60 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="37"
+                android:startY="30"
+                android:endX="71"
+                android:endY="72"
+                android:type="linear">
+                <item android:color="#1E293B" android:offset="0.0" />
+                <item android:color="#0F172A" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shell Border / Neon Edge -->
+    <path
+        android:pathData="M37,34 C37,31.8 38.8,30 41,30 L67,30 C69.2,30 71,31.8 71,34 L71,60 C71,62.2 69.2,64 67,64 L63,64 L63,70 C63,71.1 62.1,72 61,72 L47,72 C45.9,72 45,71.1 45,70 L45,64 L41,64 C38.8,64 37,62.2 37,60 Z"
+        android:strokeWidth="2.2"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Locking Clip / Latch on top -->
+    <path
+        android:pathData="M49,30 L49,24 C49,22.9 49.9,22 51,22 L57,22 C58.1,22 59,22.9 59,24 L59,30"
+        android:strokeWidth="2.5"
+        android:strokeColor="#2979FF"
+        android:strokeLineCap="round" />
+
+    <!-- RJ45 8-Pin Gold/Cyan Contacts Area -->
+    <!-- Pin 1 -->
+    <path android:pathData="M43,36 L43,44" android:strokeWidth="1.8" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <!-- Pin 2 -->
+    <path android:pathData="M46,36 L46,44" android:strokeWidth="1.8" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+    <!-- Pin 3 -->
+    <path android:pathData="M49,36 L49,44" android:strokeWidth="1.8" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <!-- Pin 4 -->
+    <path android:pathData="M52,36 L52,44" android:strokeWidth="1.8" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+    <!-- Pin 5 -->
+    <path android:pathData="M56,36 L56,44" android:strokeWidth="1.8" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <!-- Pin 6 -->
+    <path android:pathData="M59,36 L59,44" android:strokeWidth="1.8" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+    <!-- Pin 7 -->
+    <path android:pathData="M62,36 L62,44" android:strokeWidth="1.8" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <!-- Pin 8 -->
+    <path android:pathData="M65,36 L65,44" android:strokeWidth="1.8" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+
+    <!-- Activity Status Indicator LED (Glowing Emerald/Cyan) -->
+    <path
+        android:pathData="M50,53 A4,4 0 1,1 49.99,53 Z"
+        android:fillColor="#00E676" />
+    <path
+        android:pathData="M58,53 A4,4 0 1,1 57.99,53 Z"
+        android:fillColor="#FFD600" />
+
+    <!-- Dynamic Speed Lightning / Data Waves below cable -->
+    <path
+        android:pathData="M54,76 L54,86 M46,80 L54,86 L62,80"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00E5FF"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round" />
+</vector>

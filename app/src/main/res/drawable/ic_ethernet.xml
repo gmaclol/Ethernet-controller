@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    
+    <!-- Background rounded square with gradient -->
+    <path
+        android:pathData="M8,4 L40,4 C42.2,4 44,5.8 44,8 L44,40 C44,42.2 42.2,44 40,44 L8,44 C5.8,44 4,42.2 4,40 L4,8 C4,5.8 5.8,4 8,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="4"
+                android:startY="4"
+                android:endX="44"
+                android:endY="44"
+                android:type="linear">
+                <item android:color="#0F172A" android:offset="0.0" />
+                <item android:color="#1E293B" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glowing Cyan Border -->
+    <path
+        android:pathData="M8,4 L40,4 C42.2,4 44,5.8 44,8 L44,40 C42.2,4 44,42.2 40,44 L8,44 C5.8,44 4,42.2 4,40 L4,8 C4,5.8 5.8,4 8,4 Z"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E5FF" />
+
+    <!-- RJ45 Plug Body -->
+    <path
+        android:pathData="M16,14 C16,12.9 16.9,12 18,12 L30,12 C31.1,12 32,12.9 32,14 L32,28 C32,29.1 31.1,30 30,30 L28,30 L28,34 C28,34.6 27.6,35 27,35 L21,35 C20.4,35 20,34.6 20,34 L20,30 L18,30 C16.9,30 16,29.1 16,28 Z"
+        android:fillColor="#1E293B"
+        android:strokeWidth="1.5"
+        android:strokeColor="#00E5FF" />
+
+    <!-- Top clip -->
+    <path
+        android:pathData="M22,12 L22,9 C22,8.4 22.4,8 23,8 L25,8 C25.6,8 26,8.4 26,9 L26,12"
+        android:strokeWidth="1.5"
+        android:strokeColor="#2979FF"
+        android:strokeLineCap="round" />
+
+    <!-- Pins -->
+    <path android:pathData="M19,15 L19,20" android:strokeWidth="1.2" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <path android:pathData="M21,15 L21,20" android:strokeWidth="1.2" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+    <path android:pathData="M23,15 L23,20" android:strokeWidth="1.2" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <path android:pathData="M25,15 L25,20" android:strokeWidth="1.2" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+    <path android:pathData="M27,15 L27,20" android:strokeWidth="1.2" android:strokeColor="#00E5FF" android:strokeLineCap="round" />
+    <path android:pathData="M29,15 L29,20" android:strokeWidth="1.2" android:strokeColor="#38BDF8" android:strokeLineCap="round" />
+
+    <!-- Status LEDs -->
+    <path android:pathData="M22,25 A1.5,1.5 0 1,1 21.99,25 Z" android:fillColor="#00E676" />
+    <path android:pathData="M26,25 A1.5,1.5 0 1,1 25.99,25 Z" android:fillColor="#FFD600" />
+</vector>
