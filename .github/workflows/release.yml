@@ -11,10 +11,15 @@ on:
         required: true
         default: 'v1.1'
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: Build & Release APK
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout Repository
@@ -72,5 +77,6 @@ jobs:
           generate_release_notes: true
           draft: false
           prerelease: false
+          token: ${{ secrets.GITHUB_TOKEN }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
